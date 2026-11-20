@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "triggerbot",
+	"version": "${version}",
+	"name": "dayener dls",
+	"description": "dayener dls client: ClickGUI with Combat (TriggerBot), Visuals (Fullbright, NoRender), Interface and Movement categories.",
+	"authors": [
+		"dayener"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.triger.triggerbot.TriggerBotClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "triggerbot.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.triger.triggerbot.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"AbstractContainerScreenAccessor",
+		"AvatarRendererMixin",
+		"CameraMixin",
+		"ChatScreenAccessor",
+		"ClientPacketListenerMixin",
+		"EntityMixin",
+		"GameRendererMixin",
+		"ItemInHandRendererMixin",
+		"KeyboardInputMixin",
+		"LightmapRenderStateExtractorMixin",
+		"LivingEntityMixin",
+		"MinecraftAccessor",
+		"MinecraftMixin",
+		"MobEffectFogEnvironmentMixin",
+		"NoRenderTotemMixin",
+		"LockSlotDropMixin",
+		"LocalPlayerAirStuckMixin",
+		"LocalPlayerSilentMixin",
+		"NoPushEntityMixin",
+		"NoPushBlocksMixin",
+		"NoPushRodMixin",
+		"MultiPlayerGameModeInvoker",
+		"ItemCooldownsAccessor",
+		"CooldownInstanceAccessor",
+		"LockSlotClickMixin",
+		"ParticleEngineMixin",
+		"WeatherEffectRendererMixin",
+		"AtmosphericFogMixin",
+		"ScreenEffectRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
